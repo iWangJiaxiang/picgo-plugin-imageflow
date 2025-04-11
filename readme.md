@@ -35,3 +35,9 @@ graph TD
 ## 参考文档
 
 - [插件开发 | PicGo-Core](https://picgo.github.io/PicGo-Core-Doc/zh/dev-guide/cli.html)
+
+## 鸣谢
+
+感谢以下开源项目提供灵感
+
+- https://github.com/foraixh/picgo-plugin-halo-uploader

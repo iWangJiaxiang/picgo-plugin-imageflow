@@ -28,15 +28,15 @@ export = (ctx: PicGo) => {
             name: 'url',
             type: 'input',
             required: true,
-            message: '服务器 url',
-            alias: '服务器地址'
+            message: '服务器地址',
+            alias: 'URL'
           },
           {
             name: 'token',
             type: 'input',
             required: true,
             message: 'API Token',
-            alias: 'API密钥'
+            alias: 'API Key'
           }
           // {
           //   name: 'expiryMinutes',

@@ -1,6 +1,6 @@
 {
   "name": "picgo-plugin-imageflow",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "ImageFlow 图床上传工具",
   "main": "dist/index.js",
   "publishConfig": {

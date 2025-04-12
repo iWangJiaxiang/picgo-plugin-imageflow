@@ -1,8 +1,33 @@
 # picgo-plugin-imageflow
 
-picgo 的 imageflow 图床上传工具
+picgo 的 [ImageFlow](https://github.com/Yuri-NagaSaki/ImageFlow) 图床上传工具，由[王嘉祥](https://www.jiaxiang.wang)开发
 
-## 架构图
+## 配置说明
+
+| 参数名         | 类型   | 是否必填 | 描述                     | 默认值 |
+|----------------|--------|----------|--------------------------|--------|
+| `url`          | string | 是       | 服务器地址               | 无     |
+| `token`        | string | 是       | API 密钥                 | 无     |
+| `expiryMinutes`| number | 否       | 图片过期时间（分钟）     | 无     |
+| `tags`         | string | 否       | 图片标签（逗号分隔）     | 无     |
+
+## 安装说明
+
+### CLI
+
+### GUI
+
+## 使用方式
+
+## 演示
+
+配置
+
+上传
+
+## 开发
+
+### 架构图
 
 ```mermaid
 graph TD
@@ -18,15 +43,15 @@ graph TD
     I --> K[显示错误提示]
 ```
 
-## 上游接口说明
+### 上游接口说明
 
-### API 密钥认证
+#### API 密钥认证
 
 图片上传功能需要 API 密钥认证。您可以：
 
 1. 在请求 `header` 中添加`Authorization`，值为`Bearer <token>`
 
-### API 参考
+#### API 参考
 
 | 接口 | 方法 | 描述 | 参数 | 认证 |
 |----------|---------|-------------|------------|-------------|

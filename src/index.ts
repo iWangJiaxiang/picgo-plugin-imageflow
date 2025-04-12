@@ -37,19 +37,19 @@ export = (ctx: PicGo) => {
             required: true,
             message: 'API Token',
             alias: 'API密钥'
-          },
-          {
-            name: 'expiryMinutes',
-            type: 'input',
-            required: false,
-            message: '过期时间（分钟）'
-          },
-          {
-            name: 'tags',
-            type: 'input',
-            required: false,
-            message: '标签（逗号分隔）'
           }
+          // {
+          //   name: 'expiryMinutes',
+          //   type: 'input',
+          //   required: false,
+          //   message: '过期时间（分钟）'
+          // },
+          // {
+          //   name: 'tags',
+          //   type: 'input',
+          //   required: false,
+          //   message: '标签（逗号分隔）'
+          // }
         ]
       },
       async handle (ctx) {

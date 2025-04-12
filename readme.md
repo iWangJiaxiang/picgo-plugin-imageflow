@@ -1,4 +1,16 @@
-# picgo-plugin-imageflow
+<h1 align="center">PicGo Plugin ImageFlow</h1>
+
+<p align="center">
+  <a href="https://github.com/iWangJiaxiang/picgo-plugin-imageflow/releases">
+    <img src="https://github.com/iWangJiaxiang/picgo-plugin-imageflow/workflows/publish/badge.svg" alt="npm version">
+  </a>
+  <a href="https://www.npmjs.com/package/picgo-plugin-imageflow">
+    <img src="https://img.shields.io/npm/v/picgo-plugin-imageflow.svg" alt="npm version">
+  </a>
+  <a href="https://github.com/iWangJiaxiang/picgo-plugin-imageflow?tab=MIT-1-ov-file">
+    <img src="https://img.shields.io/github/license/iWangJiaxiang/picgo-plugin-imageflow" alt="npm version">
+  </a>
+</p>
 
 [PicGo](https://github.com/PicGo/PicGo-Core)'s [ImageFlow](https://github.com/Yuri-NagaSaki/ImageFlow) image hosting upload tool, developed by [Jiaxiang Wang](https://www.jiaxiang.wang).  
 [PicGo](https://github.com/PicGo/PicGo-Core) 的 [ImageFlow](https://github.com/Yuri-NagaSaki/ImageFlow) 图床上传工具，由[王嘉祥](https://www.jiaxiang.wang)开发。

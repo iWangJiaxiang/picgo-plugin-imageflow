@@ -20,7 +20,11 @@
     "picgo-gui-plugin",
     "picgo-plugin"
   ],
-  "author": "王嘉祥",
+  "author": {
+    "name": "王嘉祥 Jiaxiang Wang",
+    "email": "to@jiaxiang.wang",
+    "url": "https://www.jiaxiang.wang/"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^16.9.1",

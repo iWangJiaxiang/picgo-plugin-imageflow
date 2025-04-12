@@ -15,7 +15,15 @@ picgo 的 [ImageFlow](https://github.com/Yuri-NagaSaki/ImageFlow) 图床上传�
 
 ### CLI
 
+通过 Picgo Core 命令行安装
+
+```bash
+picgo add imageflow
+```
+
 ### GUI
+
+GUI 直接搜索 imageflow 下载即可，
 
 ## 使用方式
 
